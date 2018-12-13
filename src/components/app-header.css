@@ -1,0 +1,6 @@
+.app-header {
+        aligin-items: flex-end;
+}
+.app-header h1 {
+        flex-grow: 1;
+}
