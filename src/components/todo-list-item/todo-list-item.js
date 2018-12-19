@@ -63,8 +63,9 @@ classNames += ' important';
       </button>
 
       <button type="button"
-              className="btn btn-outline-danger btn-sm float-right">
-        <i className="fa fa-trash-o" />
+              className="btn btn-outline-danger btn-sm float-right"
+      onClick={this.props.onDeleted}>
+              <i className="fa fa-trash-o" />
 </button>
 </span>
   );
